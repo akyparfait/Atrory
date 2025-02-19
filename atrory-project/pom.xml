@@ -13,7 +13,7 @@
 	<groupId>com.atrory</groupId>
 	<artifactId>atrory-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>codeplac</name>
+	<name>atrory_project</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
 	<licenses>
@@ -40,6 +40,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.persistence</groupId>
+			<artifactId>jakarta.persistence-api</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
